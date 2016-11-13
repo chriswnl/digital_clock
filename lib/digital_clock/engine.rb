@@ -1,7 +1,7 @@
 module DigitalClock
   class Engine < ::Rails::Engine
-    initializer "digital_clock.assets" do
-      ::Rails.application.config.assets.precompile += %w( moment.js digital_clock.js digital_clock.css )
-    end
+    config.assets.paths << File.expand_path("../../assets/stylesheets", __FILE__)
+    config.assets.paths << File.expand_path("../../assets/javascripts", __FILE__)
+    config.assets.precompile += %w( digital_clock.css digital_clock.js )
   end
 end
