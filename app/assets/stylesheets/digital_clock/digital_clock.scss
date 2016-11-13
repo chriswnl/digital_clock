@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Digital Dismay';
+  src: font-url('Digital Dismay.otf');
+}
+.display .digits {
+  font-family: 'Digital Dismay';
+  margin: 3px auto;
+  font-size: 2em;
+  font-weight: normal;
+  padding: 0 10px;
+  background-color: #000;
+  opacity: 1;
+  border-radius: 5px;
+  box-shadow: 1px 1px darkgrey;
+  text-shadow: 0 0 2px yellow;
+  color: gold;
+}
+
+.display {
+  display: inline-block;
+
+}
+
+.display .digits:before {
+  position: fixed;
+  content: '88:88:88';
+  color: white;
+  opacity: 0.3;
+
+}
