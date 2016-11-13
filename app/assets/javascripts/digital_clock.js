@@ -1,2 +1,2 @@
 //= require moment
-//= require_tree .
+//= require_tree digital_clock
