@@ -40,4 +40,4 @@ Digits are created using the Digital Dismay font and so are scalable. Just wrap 
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-Digital Dismay has [this licence/usage agreement](digital_dismal_licence.txt).
+Digital Dismay has [this licence/usage agreement](digital_dismay_licence.txt).
