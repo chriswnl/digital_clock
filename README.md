@@ -33,9 +33,19 @@ In a view, you have access to the helper ```digital_clock``` so you can use:
 ```
 <%= digital_clock %>
 ```
+The basic clock was yellow/gold. Other colours are ```:green```, ```:red``` and ```:blue```.
+```
+<%= digital_clock(:blue) %>
+```
+If you want additional colours, the CSS is very simple so create them yourself. 
+
+```css
+.green {
+  text-shadow: 0 0 2px lightgreen !important;
+  color: green !important;
+}
+```
 Digits are created using the Digital Dismay font and so are scalable. Just wrap them in a ```div``` or something like ```h1```.
-
-
 
 
 ## License

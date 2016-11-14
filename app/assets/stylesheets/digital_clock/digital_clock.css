@@ -16,6 +16,21 @@
   color: gold;
 }
 
+.green {
+  text-shadow: 0 0 2px lightgreen !important;
+  color: green !important;
+}
+
+.red {
+  text-shadow: 0 0 2px lightcoral !important;
+  color: red !important;
+}
+
+.blue {
+  text-shadow: 0 0 2px lightblue !important;
+  color: blue !important;
+}
+
 .display {
   display: inline-block;
 }
