@@ -4,6 +4,7 @@ drop into various pages in some Rails apps.
 
 The basics are here and I'll probably add to this soon.
 
+![clock](clock.png)
 ## Installation
 Add it to your gem file:
 
